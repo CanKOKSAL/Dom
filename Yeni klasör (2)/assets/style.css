@@ -1,0 +1,59 @@
+* {
+    margin: 10px;
+    padding: 50px;
+    box-sizing: content-box;
+    margin-bottom: 20px;
+}
+
+.program-cont{
+    height: 20px;
+    width: 100px;
+    background-color:darksalmon;
+}
+
+.dizayn-cont{
+    height: 20px;
+    width: 100px;
+    background-color:darksalmon;
+}
+
+.photoshop-cont{
+    height: 20px;
+    width: 100px;
+    background-color:darksalmon;
+}
+
+.program-cont:hover{
+    background-color: darkgoldenrod;
+}
+
+.dizayn-cont:hover{
+    background-color: aqua;
+}
+
+.photoshop-cont:hover{
+    background-color:crimson;
+}
+
+div p{
+    
+    width: 350px;
+    padding: 35px;
+    margin: 50px;
+    border: 2px solid;
+}
+div p::after{
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 10px;
+    background-color: darksalmon;
+}
+
+.position img{
+    position: absolute;
+}
+.position p{
+    position: absolute;
+    margin-right: 810px;
+}
