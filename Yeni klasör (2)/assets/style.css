@@ -3,4 +3,7 @@ body{
     margin-top: 20%;
     background-color: bisque;
  }
+ #Second{
+    display: none;
+ }
  
